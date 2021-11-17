@@ -1,0 +1,8 @@
+{
+  "verification": {
+    "pathPatterns": ["test/*.verification.test.js"],
+    "testNamePatterns": ["CalculatorSampleVerification.*"]
+  },
+  "readOnlyFiles" : [ "package.json", "truffle.js", "migrations/**", "contracts/Migrations.sol", "test/**" ],
+  "hiddenFiles" : [ "package-lock.json", "build/", "node_modules/" ]
+}
